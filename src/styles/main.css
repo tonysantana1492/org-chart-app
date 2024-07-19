@@ -1,5 +1,6 @@
 .orgchart-container {
-  height: 1000px;
+  height: 100%;
+  width: 100%;
 }
 
 .node-image {

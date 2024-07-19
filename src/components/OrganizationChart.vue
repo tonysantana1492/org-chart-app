@@ -4,7 +4,6 @@
           :pan="true"
           :zoom="true"
           :zoomin-limit="1"
-          :toggleCollapse="true"
         >
           <template slot-scope="{ nodeData }">
             <div
