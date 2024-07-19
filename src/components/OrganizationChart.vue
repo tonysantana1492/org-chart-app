@@ -1,6 +1,6 @@
 <template>
         <organization-chart
-          :datasource="ds"
+          :datasource="records"
           :pan="true"
           :zoom="true"
           :zoomin-limit="1"
@@ -32,7 +32,7 @@
     },
     data() {
       return {
-        ds: transformDataToHierarchy(data),
+        records: transformDataToHierarchy(data),
       };
     },
   };
