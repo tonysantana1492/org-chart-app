@@ -20,7 +20,6 @@ export function transformDataToHierarchy(data) {
       children: [],
     };
 
-    // Check if client has accesses
     if (client.accesses && client.accesses.length > 0) {
       client.accesses.forEach((access) => {
         const transformedUser = {
@@ -30,7 +29,7 @@ export function transformDataToHierarchy(data) {
           type: access.role.name,
           image: access.user.image,
           color: "violet",
-          children: [], // Users typically don't have further children
+          children: [],
         };
 
         transformedClient.children.push(transformedUser);
