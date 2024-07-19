@@ -18,7 +18,6 @@
 
 .text-role {
   font-size: 10px;
-  color: rgb(109, 107, 107);
 }
 
 .orgchart {
@@ -40,7 +39,7 @@
 
 .node-box {
   padding: 10px;
-  border: 1px solid gray;
+  border: 1px solid rgb(163, 162, 162);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,18 +49,18 @@
   background-color: white;
 }
 
-.leftLine {
-  border-left: 2px solid gray !important;
+.orgchart .lines .downLine {
+  background-color: gray;
 }
 
-.rightLine {
-  border-right: 2px solid gray !important;
+.orgchart .lines .leftLine {
+  border-left: 1px solid gray;
 }
 
-.topLine {
-  border-top: 2px solid gray !important;
+.orgchart .lines .topLine {
+  border-top: 2px solid gray;
 }
 
-.downLine {
-  background-color: gray !important;
+.orgchart .lines .rightLine {
+  border-right: 1px solid gray;
 }

@@ -5,7 +5,7 @@ export function transformDataToHierarchy(data) {
     image: "https://s3.amazonaws.com/cdn.officepuzzle.com/signature-logo.png",
     type: "COMPANY",
     gender: null,
-    color: "blue",
+    color: "#18187b",
     children: [],
   };
 
@@ -16,7 +16,7 @@ export function transformDataToHierarchy(data) {
       name: client.name,
       type: client.type.name,
       image: client.image,
-      color: "green",
+      color: "#057305",
       children: [],
     };
 
@@ -28,7 +28,7 @@ export function transformDataToHierarchy(data) {
           name: access.user.name,
           type: access.role.name,
           image: access.user.image,
-          color: "violet",
+          color: "#9b019b",
           children: [],
         };
 
