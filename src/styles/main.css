@@ -1,0 +1,66 @@
+.orgchart-container {
+  height: 1000px;
+}
+
+.node-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  background-color: #ebebeb;
+}
+
+.text-name {
+  font-weight: bold;
+}
+
+.text-role {
+  font-size: 10px;
+  color: rgb(109, 107, 107);
+}
+
+.orgchart {
+  background: transparent;
+}
+
+.node {
+  width: fit-content !important;
+}
+
+.text-container {
+  text-align: left;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: max-content;
+}
+
+.node-box {
+  padding: 10px;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border-radius: 5px;
+  width: fit-content;
+  background-color: white;
+}
+
+.leftLine {
+  border-left: 2px solid gray !important;
+}
+
+.rightLine {
+  border-right: 2px solid gray !important;
+}
+
+.topLine {
+  border-top: 2px solid gray !important;
+}
+
+.downLine {
+  background-color: gray !important;
+}
